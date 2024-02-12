@@ -1,0 +1,16 @@
+.{
+	.name = "george",
+	.version = "0.0.1",
+	.paths = .{
+		"george/",
+		"build.zig.zon",
+		"build.zig",
+	},
+
+	.dependencies = .{
+		.flecs = .{
+			.url = "https://github.com/SanderMertens/flecs/archive/refs/tags/v3.2.11.tar.gz",
+			.hash = "1220a066c54cb655cc8983e02cbdb7db66ccf354d9263408b519071250cc04c9739d"
+		}
+	}
+}
